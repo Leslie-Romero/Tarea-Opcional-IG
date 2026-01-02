@@ -1,6 +1,11 @@
 # Tarea Opcional IG
+
 ## Autores
 Leslie Liu Romero Martín
+
+## Link de CodeSandbox
+https://codesandbox.io/p/devbox/ig-tarea-s11-entrega-forked-4nyxvw?workspaceId=ws_BE9Q7NRrE7cGC8oAR1EtzK
+
 ## Introducción
 Esta tarea se trata de una ampliación en la práctica de la semana 11 en la que decidí utlizar la librería Ammo.js para crear un juego en el que se puedan derribar ciertos ladrillos de un muro para revelar un mensaje oculto, esto se consigue manteniendo ciertos ladrillos del muro fijos mientras que el resto se pueden mover con los proyectiles.
 
