@@ -19,13 +19,23 @@ Todo esto ya se encontraba implementado y me he dedicado a mejorarlo y añadir n
 ## Funcionalidades añadidas
 Con respecto a las funcionalidades añadidas, la más notable serían los modos de juego, ahora existen dos modos de juego: por niveles (Levels) y relajado (Zen). El primer modo sigue un orden progresivo de menor a mayor dificultad, incorpora una barra de progreso que se vuelve verde cuando se considera que el nivel está completado (se han derribado todos los ladrillos que no son fijos y se ha desvelado el mensaje) y cuenta con un límite de bolas (munición) permitido para cada nivel. Además, a medida que se van completando niveles, se avanza automáticamente, sin embargo, si no se consigue completar el nivel con el número de bolas establecido, se debe reiniciar el propio nivel hasta conseguirlo. de lo contrario, se muestra un mensaje de alerta de que te has quedado sin munición. En cualquier momento se puede pasar al modo Zen, que también muestra la barra de progreso, pero en el que se puede utilizar toda la munición que se desee, haciendo alusión a su nombre, es una modalidad relajada y sin presión, simplemente por el placer de jugar. 
 
+Barra de progreso
+<br>
+![Progress bar](/examples/progress_bar.gif)
+
 Modo por niveles
+<br>
 ![Modo Levels](/examples/level_up.gif)
 
 Modo relajado
+<br>
 ![Modo Zen](/examples/zen_mode_completed.gif)
 
 Otro de los cambios importantes que se realizaron con respecto a la versión anterior es la mecánica de juego. Anteriormente, el disparo de las bolas se realizaba haciendo click en cualquiera de los botones del ratón, ahora, para evitar conflicto y para poder manejar la interfaz de usuario sin disparar accidentalmente, así como los controles de la cámara, decidí cambiar el disparo para que se utilice la barra espaciadora del teclado; la posición del ratón se utiliza para apuntar y el espacio para lanzar el proyectil. 
+
+Sin proyectiles
+<br>
+![Sin proyectiles](/examples/no_balls_left.gif)
 
 Otros añadidos pueden ser: el botón del "ojo" arriba a la derecha, este botón se puede utilizar para visualizar el resultado final donde todos los ladrillos se han derribado y solo queda el mensaje, esto es puramente visual ya que no se puede utilizar para saltar niveles, sirve un propósito similar al de la "bombilla" pero mientras la bombilla te facilita el juego y permite avanzar, este botón se debe utilizar solo si no se quiere jugar más este nivel y se quiere ver el resultado o se va a resetear el nivel de todas formas y quiere aprovechar para ver el resultado si lo hubiese conseguido, ya que **no guarda ningún tipo de progreso**. 
 
